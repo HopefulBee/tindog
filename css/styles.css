@@ -99,10 +99,34 @@ h2{
     padding: 3% 2%;
 }
 
-/* .w-100 { background-color: #ef8172;} */
-/* 
-h3{ 
-    padding-top: 10%;
-    line-height: 1.5;
-    font-size: 2.5rem;
-} */
+@media (max-width:1028px) {
+    #title{
+        text-align: center;
+    }
+
+    .titlePic{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call to Action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.cta-header{ padding-top: 50px; }
+
+/* Footer */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+    position: relative;
+}
+
+.ssn{
+    margin: 20px 10px;
+}
